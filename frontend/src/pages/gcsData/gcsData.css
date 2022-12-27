@@ -1,0 +1,58 @@
+.main-heading {
+  text-align: center;
+}
+
+.searchs-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.searchs-wrapper .leftSearch {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e0e0e0;
+}
+
+.searchs-wrapper .leftSearch button {
+  background-color: #02164f;
+  width: 140px;
+  height: 60px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  outline: none;
+  border: none;
+  color: #fff;
+}
+
+.andsign {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 51.04px;
+}
+
+.searchs-wrapper .leftSearch .srch-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.searchs-wrapper .leftSearch .srch-wrapper input {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  margin-left: 10px;
+  outline: none;
+  border: none;
+  background-color: #f5f8fe;
+}
+
+.adminside-pages-wrapper {
+  width: 90%;
+  margin: auto;
+}

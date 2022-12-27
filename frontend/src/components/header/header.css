@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&display=swap");
+.header-main-wrapper {
+  background-color: #02164f;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+.header-inner-wrapper {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-inner-wrapper .hlogo-wrapper {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 44.66px;
+}
+
+.hlinks-wrapper ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.hlinks-wrapper ul li {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25.52px;
+  margin-left: 50px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.profile-btn {
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  padding: 15px !important;
+}
+
+.profile-menu-wrapper {
+  position: absolute;
+  right: 5%;
+  top: 95px;
+  background-color: #fff;
+  z-index: 2 !important;
+  width: 260px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #e0e0e0;
+}
+
+.profile-menu-wrapper ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.profile-menu-wrapper ul li {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28.07px;
+  cursor: pointer;
+  padding: 15px 25px;
+  color: #000;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.fa-caret-up {
+  position: fixed;
+  top: 76px;
+  right: 7%;
+  color: #fff;
+  font-size: 30px;
+}
+
+.logoutli {
+  border-bottom: none !important;
+  color: #df1f00 !important;
+}
+
+.questionli {
+  font-weight: 700 !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .header-inner-wrapper .hlogo-wrapper {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 44.66px;
+  }
+
+  .hlinks-wrapper ul li {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 25.52px;
+    margin-left: 50px;
+    cursor: pointer;
+    padding: 5px;
+  }
+  .homeli {
+    display: none;
+  }
+}
